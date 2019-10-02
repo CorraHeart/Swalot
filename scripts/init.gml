@@ -3,7 +3,7 @@ crouchbox_spr = sprite_get("crouch_hurt");
 air_hurtbox_spr = -1;
 hitstun_hurtbox_spr = -1;
 
-char_height = 66;
+char_height = 70;
 idle_anim_speed = .1;
 crouch_anim_speed = .1;
 walk_anim_speed = .125;
@@ -25,11 +25,11 @@ moonwalk_accel = 1.4;
 
 jump_start_time = 5;
 jump_speed = 11;
-short_hop_speed = 8;
+short_hop_speed = 7;
 djump_speed = 10;
 leave_ground_max = 7; //the maximum hsp you can have when you go from grounded to aerial without jumping
 max_jump_hsp = 6; //the maximum hsp you can have when jumping from the ground
-air_max_speed = 7; //the maximum hsp you can accelerate to when in a normal aerial state
+air_max_speed = 5; //the maximum hsp you can accelerate to when in a normal aerial state
 jump_change = 3; //maximum hsp when double jumping. If already going faster, it will not slow you down
 air_accel = .3;
 prat_fall_accel = .85; //multiplier of air_accel while in pratfall
@@ -49,7 +49,7 @@ land_time = 6; //normal landing frames
 prat_land_time = 10;
 wave_land_time = 8;
 wave_land_adj = 1.35; //the multiplier to your initial hsp when wavelanding. Usually greater than 1
-wave_friction = .05; //grounded deceleration when wavelanding
+wave_friction = .08; //grounded deceleration when wavelanding
 
 //crouch animation frames
 crouch_startup_frames = 3;

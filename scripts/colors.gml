@@ -34,8 +34,8 @@ set_color_profile_slot(4, 1, 216, 176, 64); //WHISKERS
 set_color_profile_slot(4, 2, 48, 48, 48); //SPOTS
 set_color_profile_slot(4, 3, 224, 96, 112); //EYES
 
-//Yellow Color
-set_color_profile_slot(5, 0, 235, 248, 69); //SKIN
-set_color_profile_slot(5, 1, 216, 176, 64); //WHISKERS
-set_color_profile_slot(5, 2, 48, 48, 48); //SPOTS
-set_color_profile_slot(5, 3, 224, 48, 88); //EYES
+//Pink Color - Trans Rights
+set_color_profile_slot(5, 0, 245, 171, 185); //SKIN
+set_color_profile_slot(5, 1, 255, 255, 255); //WHISKERS
+set_color_profile_slot(5, 2, 91, 207, 250); //SPOTS
+set_color_profile_slot(5, 3, 91, 207, 250); //EYES

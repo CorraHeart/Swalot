@@ -1,0 +1,24 @@
+Swalot Progress
+
+To Do:
+[Animation]
+-Air dodge (multiple directions optional)
+-Set up directional/contextual hurt animations (look at Mollo for examples)
+-Forward Tilt
+-Up Tilt
+-Forward Strong
+-Down Strong
+-Neutral Air
+-Forward Air
+-Back Air
+-Up Air
+-Down Air
+
+-Taunt
+
+[Coding]
+-Down tilt is ready for implementation. It's a slightly disjointed move that sends up and slightly away
+-Up Smash hitbox fix, find a way to make the two hits connect? Also nerf the strong hit's kill power.
+-Jab could use minor tweaks. Maybe add a tiny bit of startup/endlag.
+
+-

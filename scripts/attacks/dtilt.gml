@@ -23,28 +23,31 @@ set_window_value(AT_DTILT, 3, AG_WINDOW_SFX_FRAME, 2);
 set_window_value(AT_DTILT, 3, AG_WINDOW_ANIM_FRAME_START, 3);
 
 
-// Window 4, Real Frames 11-15, Animation Frame 4 [Fling Dirt Strong]
+// Window 4, Real Frames 11-16, Animation Frame 4 [Fling Dirt Strong]
 set_window_value(AT_DTILT, 4, AG_WINDOW_TYPE, 0);
 set_window_value(AT_DTILT, 4, AG_WINDOW_LENGTH, 5);
 set_window_value(AT_DTILT, 4, AG_WINDOW_ANIM_FRAMES, 0);
-set_window_value(AT_DTILT, 4, AG_WINDOW_HAS_WHIFFLAG, 4);
 set_window_value(AT_DTILT, 4, AG_WINDOW_CANCEL_TYPE, 2);
 set_window_value(AT_DTILT, 4, AG_WINDOW_CANCEL_FRAME, 15);
 set_window_value(AT_DTILT, 4, AG_WINDOW_ANIM_FRAME_START, 4);
 
 
-// Window 5, Real Frames 16-17, Animation Frame 5 [Fling Dirt Weak - Flipped]
+// Window 5, Real Frames 17-18, Animation Frame 5 [Fling Dirt Weak - Flipped]
 set_window_value(AT_DTILT, 5, AG_WINDOW_TYPE, 0);
 set_window_value(AT_DTILT, 5, AG_WINDOW_LENGTH, 2);
 set_window_value(AT_DTILT, 5, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_DTILT, 5, AG_WINDOW_ANIM_FRAME_START, 5);
+set_window_value(AT_DTILT, 5, AG_WINDOW_CANCEL_TYPE, 2);
+set_window_value(AT_DTILT, 5, AG_WINDOW_CANCEL_FRAME, 17);
 
-// Window 6, Real Frames 15-16, Animation Frame 6 [Recovery]
+// Window 6, Real Frames 19-21, Animation Frame 6 [Recovery]
 set_window_value(AT_DTILT, 6, AG_WINDOW_TYPE, 0);
 set_window_value(AT_DTILT, 6, AG_WINDOW_LENGTH, 2);
 set_window_value(AT_DTILT, 6, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_DTILT, 6, AG_WINDOW_ANIM_FRAME_START, 6);
-
+set_window_value(AT_DTILT, 6, AG_WINDOW_CANCEL_TYPE, 2);
+set_window_value(AT_DTILT, 6, AG_WINDOW_CANCEL_FRAME, 19);
+set_window_value(AT_DTILT, 6, AG_WINDOW_HAS_WHIFFLAG, 4);
 
 
 set_num_hitboxes(AT_DTILT, 4);

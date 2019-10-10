@@ -9,7 +9,7 @@ set_window_value(AT_TAUNT, 1, AG_WINDOW_TYPE, 1);
 set_window_value(AT_TAUNT, 1, AG_WINDOW_LENGTH, 21);
 set_window_value(AT_TAUNT, 1, AG_WINDOW_ANIM_FRAMES, 7);
 set_window_value(AT_TAUNT, 1, AG_WINDOW_HAS_SFX, 1);
-set_window_value(AT_TAUNT, 1, AG_WINDOW_SFX, asset_get("sfx_sand_yell"));
+set_window_value(AT_TAUNT, 1, AG_WINDOW_SFX, sound_get("sfx_swalotcry"));
 set_window_value(AT_TAUNT, 1, AG_WINDOW_SFX_FRAME, 19);
 
 set_window_value(AT_TAUNT, 2, AG_WINDOW_TYPE, 2);

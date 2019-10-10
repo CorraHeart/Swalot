@@ -18,7 +18,7 @@ set_window_value(AT_DTILT, 3, AG_WINDOW_TYPE, 0);
 set_window_value(AT_DTILT, 3, AG_WINDOW_LENGTH, 3);
 set_window_value(AT_DTILT, 3, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_DTILT, 3, AG_WINDOW_HAS_SFX, 1);
-set_window_value(AT_DTILT, 3, AG_WINDOW_SFX, asset_get("sfx_swipe_weak2"));
+set_window_value(AT_DTILT, 3, AG_WINDOW_SFX, sound_get("sfx_mudslap"));
 set_window_value(AT_DTILT, 3, AG_WINDOW_SFX_FRAME, 2);
 set_window_value(AT_DTILT, 3, AG_WINDOW_ANIM_FRAME_START, 3);
 

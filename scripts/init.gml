@@ -3,7 +3,7 @@ crouchbox_spr = sprite_get("crouch_hurt");
 air_hurtbox_spr = -1;
 hitstun_hurtbox_spr = -1;
 
-char_height = 70;
+char_height = 80;
 idle_anim_speed = .1;
 crouch_anim_speed = .1;
 walk_anim_speed = .125;

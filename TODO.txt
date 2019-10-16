@@ -1,8 +1,7 @@
-Swalot Progress
-
-To Do:
-[Animation]
+[Art/Animation]
+-Forward and backward roll
 -Air dodge (multiple directions optional)
+-Walljump
 -Set up directional/contextual hurt animations (look at Mollo for examples)
 -Forward Tilt
 -Up Tilt
@@ -14,11 +13,26 @@ To Do:
 -Up Air
 -Down Air
 
--Taunt
+-Preview Screen/Splash Image
 
 [Coding]
--Jab could use minor tweaks. Maybe add a tiny bit of startup/endlag.
+-Dash attack is meant to be a slow, possibly armored move that is rather meaty and can possibly kill with the sweetspot (when he initially hits the ground)
+-Forward Air has a bit of windup, but it's got a good few active frames and is likely a kill move at high-ish percents. Ideally combos out of dtilt?
 
-[Polish]
+[Etc]
+-Increase volume of sound effects.
+
+///Done:///
+[Art/Animation]
+-UI, portrait, alt colors
+-Basic Movement (walk, dash, turn, crouch, jump, double jump)
+-Jab?
 -Down tilt
--Ustrong
+-Up strong
+
+-Taunt (maybe find better sfx)
+
+[Coding]
+-Jab?
+-Down tilt?
+-Up Strong (needs the kill power fiddled with but it works perfectly!)

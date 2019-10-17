@@ -24,14 +24,14 @@ ground_friction = .8;
 moonwalk_accel = 1.4;
 
 jump_start_time = 5;
-jump_speed = 11;
+jump_speed = 12;
 short_hop_speed = 7;
 djump_speed = 10;
 leave_ground_max = 7; //the maximum hsp you can have when you go from grounded to aerial without jumping
 max_jump_hsp = 6; //the maximum hsp you can have when jumping from the ground
 air_max_speed = 5; //the maximum hsp you can accelerate to when in a normal aerial state
 jump_change = 3; //maximum hsp when double jumping. If already going faster, it will not slow you down
-air_accel = .3;
+air_accel = .2;
 prat_fall_accel = .85; //multiplier of air_accel while in pratfall
 air_friction = .04;
 max_djumps = 1;
@@ -41,7 +41,7 @@ walljump_vsp = 11;
 walljump_time = 32;
 max_fall = 11; //maximum fall speed without fastfalling
 fast_fall = 15; //fast fall speed
-gravity_speed = .65;
+gravity_speed = .60;
 hitstun_grav = .5;
 knockback_adj = 0.95; //the multiplier to KB dealt to you. 1 = default, >1 = lighter, <1 = heavier
 

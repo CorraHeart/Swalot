@@ -45,3 +45,5 @@ sprite_change_offset("taunt", 64, 126);
 sprite_change_offset("plat", 64, 94);
 
 sprite_change_offset("nspecial_proj", 64, 94);
+
+set_victory_bg( sprite_get("victorybg"));

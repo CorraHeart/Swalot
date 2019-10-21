@@ -58,6 +58,7 @@ set_hitbox_value(AT_NAIR, 1, HG_KNOCKBACK_SCALING, .28);
 set_hitbox_value(AT_NAIR, 1, HG_BASE_HITPAUSE, 7);
 set_hitbox_value(AT_NAIR, 1, HG_VISUAL_EFFECT, 302);
 set_hitbox_value(AT_NAIR, 1, HG_HIT_SFX, asset_get("sfx_blow_weak2"));
+set_hitbox_value(AT_NAIR, 1, HG_HITBOX_GROUP, 1);
 
 // Weak hitbox
 set_hitbox_value(AT_NAIR, 2, HG_PARENT_HITBOX, 0);
@@ -77,3 +78,4 @@ set_hitbox_value(AT_NAIR, 2, HG_BASE_KNOCKBACK, 5);
 set_hitbox_value(AT_NAIR, 2, HG_KNOCKBACK_SCALING, .1);
 set_hitbox_value(AT_NAIR, 2, HG_PRIORITY, 2);
 set_hitbox_value(AT_NAIR, 2, HG_BASE_HITPAUSE, 5);
+set_hitbox_value(AT_NAIR, 2, HG_HITBOX_GROUP, 1);

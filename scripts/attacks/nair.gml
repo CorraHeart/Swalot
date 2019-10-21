@@ -33,7 +33,6 @@ set_window_value(AT_NAIR, 4, AG_WINDOW_TYPE, 0);
 set_window_value(AT_NAIR, 4, AG_WINDOW_LENGTH, 12);
 set_window_value(AT_NAIR, 4, AG_WINDOW_ANIM_FRAMES, 2)
 set_window_value(AT_NAIR, 4, AG_WINDOW_ANIM_FRAME_START, 9);
-set_window_value(AT_NAIR, 4, AG_WINDOW_HAS_WHIFFLAG, 1);
 
 
 //    * Hitbox Windows
@@ -57,7 +56,6 @@ set_hitbox_value(AT_NAIR, 1, HG_ANGLE, 361);
 set_hitbox_value(AT_NAIR, 1, HG_BASE_KNOCKBACK, 9);
 set_hitbox_value(AT_NAIR, 1, HG_KNOCKBACK_SCALING, .28);
 set_hitbox_value(AT_NAIR, 1, HG_BASE_HITPAUSE, 7);
-set_hitbox_value(AT_NAIR, 1, HG_HIT_LOCKOUT, 1);
 set_hitbox_value(AT_NAIR, 1, HG_VISUAL_EFFECT, 302);
 set_hitbox_value(AT_NAIR, 1, HG_HIT_SFX, asset_get("sfx_blow_weak2"));
 
